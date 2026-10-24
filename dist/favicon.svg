@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="rl" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef2d2d" />
+      <stop offset="100%" stop-color="#c41010" />
+    </linearGradient>
+    <linearGradient id="rd" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c41010" />
+      <stop offset="100%" stop-color="#8b0a0a" />
+    </linearGradient>
+    <linearGradient id="rm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e82020" />
+      <stop offset="100%" stop-color="#b30e0e" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(32, 28)">
+    <!-- Top-left facet -->
+    <polygon points="0,-24 -28,0 0,0" fill="url(#rl)" />
+    <!-- Top-right facet -->
+    <polygon points="0,-24 28,0 0,0" fill="url(#rd)" />
+    <!-- Bottom-left facet -->
+    <polygon points="0,24 -28,0 0,0" fill="url(#rm)" />
+    <!-- Bottom-right facet -->
+    <polygon points="0,24 28,0 0,0" fill="url(#rd)" />
+    <!-- Inner white diamond -->
+    <polygon points="0,-14 -10,0 0,14 10,0" fill="#ffffff" />
+  </g>
+  <!-- "DE" text -->
+  <text x="24" y="60" font-family="Arial Black, Helvetica, sans-serif" font-size="14" font-weight="900" fill="#1a1a1a" text-anchor="end" dominant-baseline="auto">D</text>
+  <text x="26" y="60" font-family="Arial Black, Helvetica, sans-serif" font-size="14" font-weight="900" fill="#e82020" text-anchor="start" dominant-baseline="auto">E</text>
+</svg>

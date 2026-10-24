@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Allow: /login
+Allow: /sitemap
+Disallow: /dashboard/
+Disallow: /admin/
+
+# XML Sitemap reference for HSBC-DE in Germany
+Sitemap: https://www.mobilebankinghsb.com/sitemap.xml
